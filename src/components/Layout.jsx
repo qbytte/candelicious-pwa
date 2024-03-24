@@ -1,3 +1,5 @@
+import { NavBar } from "./";
+
 const Layout = ({ children }) => {
   return (
     <div className="bg-light_rose">
@@ -8,6 +10,7 @@ const Layout = ({ children }) => {
           alt="game logo"
           className="h-[132px] mx-auto"
         />
+        <NavBar />
       </div>
       {/* Body */}
       <div className="container mx-auto">{children}</div>
