@@ -10,7 +10,7 @@ const Characters = () => {
     },
     ricardo: {
       name: "Ricardo",
-      img: "/src/assets/misc/blue-lolipop.png",
+      img: "/src/assets/misc/yellow-gummie.png",
       color: "bg-orange",
       description: "Juancito is a 30-year-old dumbfuck",
     },
