@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .bg-header {
+        background-image: url('/src/assets/layout/bg-header.png');
+        background-size: cover;
+        background-position: bottom center;
+    }
+
+    .bg-footer {
+        background-image: url('/src/assets/layout/bg-footer.png');
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .text-shadow {
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+}

@@ -4,7 +4,7 @@ function App() {
 
   return (
     <Layout>
-      Testing
+      
     </Layout>
   )
 }
