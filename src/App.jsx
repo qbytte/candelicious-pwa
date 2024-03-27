@@ -1,11 +1,12 @@
 import { Layout } from "./components";
-import { Home, Characters } from "./pages";
+import { Home, Characters, About } from "./pages";
 
 function App() {
   return (
     <Layout>
       <Home />
       <Characters />
+      <About />
     </Layout>
   );
 }

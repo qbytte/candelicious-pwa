@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         <NavBar />
       </div>
       {/* Body */}
-      <div className="flex flex-col gap-12 my-4 items-center">{children}</div>
+      <div className="flex flex-col gap-8 my-4 items-center">{children}</div>
       {/* Footer */}
       <div className="bg-footer h-[132px] flex justify-center items-center">
         <span className="text-white font-bold text-shadow mt-6">

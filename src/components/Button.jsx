@@ -3,6 +3,8 @@ const Button = ({ text, color }) => {
     green: "text-green",
     blue: "text-blue",
     orange: "text-orange",
+    purple: "text-purple",
+    brown: "text-brown",
   };
 
   return (

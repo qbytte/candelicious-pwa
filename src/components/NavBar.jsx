@@ -5,8 +5,8 @@ import { Button } from "./";
 const NavBar = () => {
   return (
     <div className="flex justify-center gap-3">
-      <Button text="Characters" color="blue" />
-      <Button text="About us" color="green" />
+      <Button text="Characters" color="purple" />
+      <Button text="About us" color="brown" />
       <Button text="Download" color="orange" />
     </div>
   );
