@@ -1,5 +1,5 @@
 import { Layout } from "./components";
-import { Home, Characters, About } from "./pages";
+import { Home, Characters, About, Download } from "./pages";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Home />
       <Characters />
       <About />
+      <Download />
     </Layout>
   );
 }

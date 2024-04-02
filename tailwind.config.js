@@ -10,6 +10,7 @@ export default {
       lighter_rose: "#ffc2c8",
       blue: "#87bbea",
       light_blue: "#cee8ea",
+      dark_blue: "#0b1a3b",
       purple: "#6867a1",
       green: "#a7cf87",
       light_green: "#d6f1D5",
