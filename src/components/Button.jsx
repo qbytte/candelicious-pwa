@@ -1,4 +1,4 @@
-const Button = ({ text, color }) => {
+const Button = ({ text, color, href }) => {
   const colors = {
     green: "text-green",
     blue: "text-blue",
@@ -9,9 +9,9 @@ const Button = ({ text, color }) => {
 
   return (
     <div>
-      <button className={`bg-white ${colors[color]} px-4 py-1 rounded-md shadow-md text-2xl`}>
+      <a href={href} className={`bg-white ${colors[color]} block px-3 py-1 rounded-md shadow-md text-2xl`}>
         {text}
-      </button>
+      </a>
     </div>
   );
 };

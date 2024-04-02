@@ -1,17 +1,23 @@
 const Card = ({ type, character }) => {
   const types = {
     left: {
-      flexDirection: "flex-row-reverse",
+      arrangement: "w-full flex flex-row-reverse items-end justify-between gap-12",
       textDirection: "text-start",
       padding: "pr-6",
       decoration: "absolute -top-6 -left-6 -rotate-45 w-[74px]",
     },
     right: {
-      flexDirection: "flex-row",
+      arrangement: "w-full flex flex-row items-end justify-between gap-12",
       textDirection: "text-end",
       padding: "pl-6",
       decoration: "absolute -top-6 -right-6 rotate-45 w-[74px]",
     },
+    center: {
+      arrangement: "w-full flex flex-col items-center justify-center gap-2",
+      textDirection: "text-center",
+      padding: "px-6",
+      decoration: "absolute -top-6 -left-6 -rotate-45 w-[74px]",
+    }
   };
 
   return (
@@ -23,12 +29,13 @@ const Card = ({ type, character }) => {
           className={types[type].decoration}
         />
         <div
-          className={`w-full flex ${types[type].flexDirection} items-end justify-between gap-12`}
+          className={types[type].arrangement}
         >
           <img
             src={character.img}
             alt="character"
-            className="w-auto h-16"
+            className="w-auto"
+            style={{ height: `${character.height}px` }}
           />
           <h2 className="text-2xl text-brown">{character.name}</h2>
         </div>

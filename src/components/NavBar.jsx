@@ -5,9 +5,9 @@ import { Button } from "./";
 const NavBar = () => {
   return (
     <div className="flex justify-center gap-3">
-      <Button text="Characters" color="purple" />
-      <Button text="About us" color="brown" />
-      <Button text="Download" color="orange" />
+      <Button text="Characters" color="purple" href={"#characters"} />
+      <Button text="About us" color="brown" href={"#about"} />
+      <Button text="Download" color="orange" href={""} />
     </div>
   );
 };

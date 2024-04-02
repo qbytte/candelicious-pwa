@@ -2,7 +2,7 @@ import { NavBar } from "./";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-light_rose">
+    <div className="bg-light_rose overflow-hidden">
       {/* Header */}
       <div className="bg-header h-auto">
         <img
