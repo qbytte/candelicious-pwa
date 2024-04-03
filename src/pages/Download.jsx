@@ -4,7 +4,7 @@ const Download = () => {
   return (
     <div className="w-full">
       <div className="bg-gradient-to-b from-black via-blue to-blue flex flex-col gap-2 justify-center items-center mx-8 px-4 py-4 rounded-md shadow-xl text-center">
-        <h1 className="text-3xl text-center text-white font-bold mb-4">
+        <h1 className="text-3xl text-center text-white font-bold mb-4" id="download">
           Download the game now!
         </h1>
         <img src="/layout/steam.png" alt="Steam logo" className="w-auto h-36" />
