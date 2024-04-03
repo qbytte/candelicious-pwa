@@ -9,7 +9,7 @@ const Button = ({ text, color, href }) => {
 
   return (
     <div>
-      <a href={href} className={`bg-white ${colors[color]} block px-3 py-1 rounded-md shadow-md text-2xl`}>
+      <a href={href} className={`bg-white ${colors[color]} block px-3 py-1 rounded-md shadow-md text-2xl md:text-3xl`}>
         {text}
       </a>
     </div>

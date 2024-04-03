@@ -22,7 +22,7 @@ const Card = ({ type, character }) => {
 
   return (
     <div>
-      <div className="relative flex flex-col gap-2 px-8 py-4 bg-white rounded-md shadow-md">
+      <div className="relative flex flex-col justify-center gap-2 max-w-[660px] px-8 py-4 bg-white rounded-md shadow-md md:w-[340px] md:h-[440px] lg:w-[330px]">
         <img
           src="/misc/star.png"
           alt="star"

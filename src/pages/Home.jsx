@@ -1,10 +1,10 @@
 const Home = () => {
   return (
     <div className="w-full">
-      <h1 id="home" className="mb-2 text-4xl text-center text-blue">
+      <h1 id="home" className="mb-2 text-4xl text-center text-blue md:text-5xl">
         Meet <span className="text-rose">Candelicious</span>
       </h1>
-      <div className="relative bg-gradient-to-b from-lighter_rose to-light_green rounded-md border-green border-2 shadow-2xl mx-6 py-4 px-6 text-brown text-center text-xl">
+      <div className="relative bg-gradient-to-b from-lighter_rose to-light_green rounded-md border-green border-2 shadow-2xl mx-6 py-4 px-6 text-brown text-center text-xl md:text-2xl lg:mx-24">
         <img
           src="/misc/star.png"
           alt="star"

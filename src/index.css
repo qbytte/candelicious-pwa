@@ -15,6 +15,12 @@
         background-position: top center;
     }
 
+    .bg-footer-lg {
+        background-image: url('/layout/bg-footer.png');
+        background-size: cover;
+        background-position: top 8% center;
+    }
+
     .bg-characters {
         background-image: url('/layout/bg-characters.png');
         background-size: cover;
