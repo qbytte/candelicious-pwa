@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['images/*.png'],
+      includeAssets: ['**/*'],
       manifest: {
         name: 'Candelicious Fall PWA',
         short_name: 'Candelicious Fall',
