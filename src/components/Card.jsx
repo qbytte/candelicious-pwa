@@ -24,7 +24,7 @@ const Card = ({ type, character }) => {
     <div>
       <div className="relative flex flex-col gap-2 px-8 py-4 bg-white rounded-md shadow-md">
         <img
-          src="/src/assets/misc/star.png"
+          src="/misc/star.png"
           alt="star"
           className={types[type].decoration}
         />

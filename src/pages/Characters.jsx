@@ -1,5 +1,5 @@
 import { Card } from "../components";
-import { characters } from "../assets/misc/characters";
+import { characters } from "../utils/characters";
 
 const Characters = () => {
   return (

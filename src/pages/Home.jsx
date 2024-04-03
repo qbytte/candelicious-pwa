@@ -6,7 +6,7 @@ const Home = () => {
       </h1>
       <div className="relative bg-gradient-to-b from-lighter_rose to-light_green rounded-md border-green border-2 shadow-2xl mx-6 py-4 px-6 text-brown text-center text-xl">
         <img
-          src="/src/assets/misc/star.png"
+          src="/misc/star.png"
           alt="star"
           className="absolute -top-10 -left-8 rotate-45 w-[74px]"
         />
@@ -20,7 +20,7 @@ const Home = () => {
           the world that threatens to change everything he believed to know.
         </span>
         <img
-          src="/src/assets/misc/red-gummie.png"
+          src="/misc/red-gummie.png"
           alt="red-gummie"
           className="absolute -bottom-6 -right-6 w-[68px]"
         />

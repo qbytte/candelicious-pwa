@@ -4,19 +4,19 @@
 
 @layer base {
     .bg-header {
-        background-image: url('/src/assets/layout/bg-header.png');
+        background-image: url('layout/bg-header.png');
         background-size: cover;
         background-position: bottom center;
     }
 
     .bg-footer {
-        background-image: url('/src/assets/layout/bg-footer.png');
+        background-image: url('/layout/bg-footer.png');
         background-size: cover;
         background-position: top center;
     }
 
     .bg-characters {
-        background-image: url('/src/assets/layout/bg-characters.png');
+        background-image: url('/layout/bg-characters.png');
         background-size: cover;
         background-position: center;
     }

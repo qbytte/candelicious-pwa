@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
       {/* Header */}
       <div className="bg-header h-auto">
         <img
-          src="/src/assets/layout/game-logo.png"
+          src="/layout/game-logo.png"
           alt="game logo"
           className="h-[132px] mx-auto"
         />

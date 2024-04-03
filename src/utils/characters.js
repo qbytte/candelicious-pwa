@@ -1,7 +1,7 @@
 const characters = [
   {
     name: "Huicho",
-    img: "/src/assets/characters/huicho.gif",
+    img: "/characters/huicho.gif",
     color: "bg-red",
     height: "74",
     description:
@@ -9,7 +9,7 @@ const characters = [
   },
   {
     name: "Corny",
-    img: "/src/assets/characters/corny.gif",
+    img: "/characters/corny.gif",
     color: "bg-orange",
     height: "140",
     description:
@@ -17,7 +17,7 @@ const characters = [
   },
   {
     name: "Peppertius",
-    img: "/src/assets/characters/peppertius.gif",
+    img: "/characters/peppertius.gif",
     color: "bg-red",
     height: "140",
     description:
@@ -25,7 +25,7 @@ const characters = [
   },
   {
     name: "Pumpkito",
-    img: "/src/assets/characters/pumpkito.gif",
+    img: "/characters/pumpkito.gif",
     color: "bg-orange",
     height: "100",
     description:
@@ -33,7 +33,7 @@ const characters = [
   },
   {
     name: "Gummegg",
-    img: "/src/assets/characters/gummegg.gif",
+    img: "/characters/gummegg.gif",
     color: "bg-yellow",
     height: "100",
     description:
@@ -41,7 +41,7 @@ const characters = [
   },
   {
     name: "Citrino",
-    img: "/src/assets/characters/citrino.gif",
+    img: "/characters/citrino.gif",
     color: "bg-green",
     height: "90",
     description:
@@ -49,7 +49,7 @@ const characters = [
   },
   {
     name: "Breakerly",
-    img: "/src/assets/characters/breakerly.gif",
+    img: "/characters/breakerly.gif",
     color: "bg-blue",
     height: "100",
     description:

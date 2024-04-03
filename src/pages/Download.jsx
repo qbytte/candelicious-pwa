@@ -7,7 +7,7 @@ const Download = () => {
         <h1 className="text-3xl text-center text-white font-bold mb-4">
           Download the game now!
         </h1>
-        <img src="/src/assets/layout/steam.png" alt="Steam logo" className="w-auto h-36" />
+        <img src="/layout/steam.png" alt="Steam logo" className="w-auto h-36" />
         <p className="text-center text-2xl text-white text-lg mb-4">
           Candelicious is available for download on Steam, what are you waiting for?. Get it
         </p>
