@@ -15,7 +15,7 @@ const Home = () => {
           insatiable appetite, embarks on an adventure to devour the entire
           kingdom of sweets. As he progresses, he discovers that the seemingly
           sweet inhabitants, known as Sweetlings, hide dark secrets. Determined
-          to fulfill his desire, Wicho challenges the Sweetlings and faces
+          to fulfill his desire, Huicho challenges the Sweetlings and faces
           increasingly difficult challenges, revealing a disturbing truth about
           the world that threatens to change everything he believed to know.
         </span>
